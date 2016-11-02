@@ -65,4 +65,23 @@ class User2Controller extends Controller
             $this->redirect("?r=user2/show");
         }
     }
+
+    //修改
+    public function actionUp(){
+    	$request = Yii::$app->request;
+    	$id = $request->get("id");
+    	$query = new Query();
+    	$data = $query->from('user2')->where("id='$id'")->one();
+    	if($request->isPost){
+    		$data=$request->post();
+    		unset($data['_csrf']);
+    		//print_r($data);die;
+    		$res = Yii::$app->db->createCommand()->update('user2',$data,"id=$id")->execute();
+    		if($res){
+    			$this->redirect("?r=user2/show");
+    		}
+    	}else{
+    		return $this->render('up',['data'=>$data]);
+    	}
+    }
 }

@@ -13,7 +13,7 @@ use yii\helpers\Html;
             <td><?php echo $v['age']?></td>
             <td>
             	<?=Html::a('删除',"?r=user2/del&id=".$v['id']."") ?>
-            	<?=Html::a('修改',"?r=user2/save&id=".$v['id']."") ?>
+            	<?=Html::a('修改',"?r=user2/up&id=".$v['id']."") ?>
             </td>
         </tr>
         <?php endforeach ?>
