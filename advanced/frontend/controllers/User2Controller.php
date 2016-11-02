@@ -37,7 +37,7 @@ class User2Controller extends Controller
             return $this->render('add');
         }
     }
-
+    //展示
     public function actionShow()
     {
         $query=new Query();
@@ -53,5 +53,16 @@ class User2Controller extends Controller
             'models'=>$models,
             'pages'=>$pages,
         ]);
+    }
+    //删除
+    public function actionDel(){
+        $id = Yii::$app->request->get("id");
+        // var_dump($id);die;
+        $res = Yii::$app->db->createCommand()->delete('user2',array("id"=>$id))->execute();
+        if($res){
+            $this->redirect("?r=user2/show");
+        }else{
+            $this->redirect("?r=user2/show");
+        }
     }
 }

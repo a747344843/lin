@@ -3577,3 +3577,1091 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1478067856.67
     'REQUEST_TIME' => 1478067856
 ]
+2016-11-02 21:03:43 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Html' not found' in G:\WWW\Git\lin\advanced\frontend\views\user2\show.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-02 21:03:43 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user2/show'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1j55niateusag27glbvplb41d7'
+    '_csrf' => 'd96f482950623693525846f4f3152076fc313e5bbb6a2f9ebac2fca8d0a99f63a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gCHpLMWUTEo9fASPJVyGtudqRFMswBRu\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\Program Files (x86)\\New xiaowugui\\bin;E:\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;E:\\Program Files (x86)\\Git\\Git\\cmd;E:\\Program Files (x86)\\Git\\TortoiseGit\\bin;C:\\Users\\lenovo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '620'
+    'PATH_TRANSLATED' => 'G:\\WWW\\'
+    'PATH_INFO' => '/'
+    'SCRIPT_NAME' => '/Git/lin/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/Git/lin/advanced/frontend/web/index.php/?r=user2/show'
+    'QUERY_STRING' => 'r=user2/show'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '57319'
+    'SCRIPT_FILENAME' => 'G:/WWW/Git/lin/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'G:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=1j55niateusag27glbvplb41d7; _csrf=d96f482950623693525846f4f3152076fc313e5bbb6a2f9ebac2fca8d0a99f63a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gCHpLMWUTEo9fASPJVyGtudqRFMswBRu%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/Git/lin/advanced/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1478091823.1708
+    'REQUEST_TIME' => 1478091823
+]
+2016-11-02 21:09:06 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ')'' in G:\WWW\Git\lin\advanced\frontend\controllers\User2Controller.php:62
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-02 21:09:06 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user2/show'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1j55niateusag27glbvplb41d7'
+    '_csrf' => 'd96f482950623693525846f4f3152076fc313e5bbb6a2f9ebac2fca8d0a99f63a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gCHpLMWUTEo9fASPJVyGtudqRFMswBRu\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\Program Files (x86)\\New xiaowugui\\bin;E:\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;E:\\Program Files (x86)\\Git\\Git\\cmd;E:\\Program Files (x86)\\Git\\TortoiseGit\\bin;C:\\Users\\lenovo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '620'
+    'PATH_TRANSLATED' => 'G:\\WWW\\'
+    'PATH_INFO' => '/'
+    'SCRIPT_NAME' => '/Git/lin/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/Git/lin/advanced/frontend/web/index.php/?r=user2/show'
+    'QUERY_STRING' => 'r=user2/show'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '57415'
+    'SCRIPT_FILENAME' => 'G:/WWW/Git/lin/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'G:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=1j55niateusag27glbvplb41d7; _csrf=d96f482950623693525846f4f3152076fc313e5bbb6a2f9ebac2fca8d0a99f63a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gCHpLMWUTEo9fASPJVyGtudqRFMswBRu%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/Git/lin/advanced/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1478092146.894
+    'REQUEST_TIME' => 1478092146
+]
+2016-11-02 21:10:37 [127.0.0.1][-][1j55niateusag27glbvplb41d7][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: user2/del' in G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('del', Array)
+#1 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user2/del', Array)
+#2 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 G:\WWW\Git\lin\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\WWW\Git\lin\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-11-02 21:10:37 [127.0.0.1][-][1j55niateusag27glbvplb41d7][info][application] $_GET = [
+    'r' => 'user2/del'
+    'id' => '2'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1j55niateusag27glbvplb41d7'
+    '_csrf' => 'd96f482950623693525846f4f3152076fc313e5bbb6a2f9ebac2fca8d0a99f63a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gCHpLMWUTEo9fASPJVyGtudqRFMswBRu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\Program Files (x86)\\New xiaowugui\\bin;E:\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;E:\\Program Files (x86)\\Git\\Git\\cmd;E:\\Program Files (x86)\\Git\\TortoiseGit\\bin;C:\\Users\\lenovo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1876'
+    'PATH_TRANSLATED' => 'G:\\WWW\\'
+    'PATH_INFO' => '/'
+    'SCRIPT_NAME' => '/Git/lin/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/Git/lin/advanced/frontend/web/index.php/?r=user2/del&id=2'
+    'QUERY_STRING' => 'r=user2/del&id=2'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '57479'
+    'SCRIPT_FILENAME' => 'G:/WWW/Git/lin/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'G:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=1j55niateusag27glbvplb41d7; _csrf=d96f482950623693525846f4f3152076fc313e5bbb6a2f9ebac2fca8d0a99f63a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gCHpLMWUTEo9fASPJVyGtudqRFMswBRu%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/Git/lin/advanced/frontend/web/index.php/?r=user2/show'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/Git/lin/advanced/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1478092237.6019
+    'REQUEST_TIME' => 1478092237
+]
+2016-11-02 21:10:44 [127.0.0.1][-][1j55niateusag27glbvplb41d7][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: user2/del' in G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('del', Array)
+#1 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user2/del', Array)
+#2 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 G:\WWW\Git\lin\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\WWW\Git\lin\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-11-02 21:10:44 [127.0.0.1][-][1j55niateusag27glbvplb41d7][info][application] $_GET = [
+    'r' => 'user2/del'
+    'id' => '6'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1j55niateusag27glbvplb41d7'
+    '_csrf' => 'd96f482950623693525846f4f3152076fc313e5bbb6a2f9ebac2fca8d0a99f63a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gCHpLMWUTEo9fASPJVyGtudqRFMswBRu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\Program Files (x86)\\New xiaowugui\\bin;E:\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;E:\\Program Files (x86)\\Git\\Git\\cmd;E:\\Program Files (x86)\\Git\\TortoiseGit\\bin;C:\\Users\\lenovo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1876'
+    'PATH_TRANSLATED' => 'G:\\WWW\\'
+    'PATH_INFO' => '/'
+    'SCRIPT_NAME' => '/Git/lin/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/Git/lin/advanced/frontend/web/index.php/?r=user2/del&id=6'
+    'QUERY_STRING' => 'r=user2/del&id=6'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '57479'
+    'SCRIPT_FILENAME' => 'G:/WWW/Git/lin/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'G:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=1j55niateusag27glbvplb41d7; _csrf=d96f482950623693525846f4f3152076fc313e5bbb6a2f9ebac2fca8d0a99f63a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gCHpLMWUTEo9fASPJVyGtudqRFMswBRu%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/Git/lin/advanced/frontend/web/index.php/?r=user2/show'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/Git/lin/advanced/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1478092244.5399
+    'REQUEST_TIME' => 1478092244
+]
+2016-11-02 21:11:22 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: request' in G:\WWW\Git\lin\advanced\frontend\controllers\User2Controller.php:59
+Stack trace:
+#0 G:\WWW\Git\lin\advanced\frontend\controllers\User2Controller.php(59): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'G:\\WWW\\Git\\lin\\...', 59, Array)
+#1 [internal function]: frontend\controllers\User2Controller->actionDel()
+#2 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('del', Array)
+#5 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user2/del', Array)
+#6 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 G:\WWW\Git\lin\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-11-02 21:11:22 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user2/del'
+    'id' => '6'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1j55niateusag27glbvplb41d7'
+    '_csrf' => 'd96f482950623693525846f4f3152076fc313e5bbb6a2f9ebac2fca8d0a99f63a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gCHpLMWUTEo9fASPJVyGtudqRFMswBRu\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\Program Files (x86)\\New xiaowugui\\bin;E:\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;E:\\Program Files (x86)\\Git\\Git\\cmd;E:\\Program Files (x86)\\Git\\TortoiseGit\\bin;C:\\Users\\lenovo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2064'
+    'PATH_TRANSLATED' => 'G:\\WWW\\'
+    'PATH_INFO' => '/'
+    'SCRIPT_NAME' => '/Git/lin/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/Git/lin/advanced/frontend/web/index.php/?r=user2/del&id=6'
+    'QUERY_STRING' => 'r=user2/del&id=6'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '57505'
+    'SCRIPT_FILENAME' => 'G:/WWW/Git/lin/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'G:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=1j55niateusag27glbvplb41d7; _csrf=d96f482950623693525846f4f3152076fc313e5bbb6a2f9ebac2fca8d0a99f63a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gCHpLMWUTEo9fASPJVyGtudqRFMswBRu%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/Git/lin/advanced/frontend/web/index.php/?r=user2/show'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/Git/lin/advanced/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1478092282.9122
+    'REQUEST_TIME' => 1478092282
+]
+2016-11-02 21:11:22 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-11-02 21:11:22 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user2/del'
+    'id' => '6'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1j55niateusag27glbvplb41d7'
+    '_csrf' => 'd96f482950623693525846f4f3152076fc313e5bbb6a2f9ebac2fca8d0a99f63a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gCHpLMWUTEo9fASPJVyGtudqRFMswBRu\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\Program Files (x86)\\New xiaowugui\\bin;E:\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;E:\\Program Files (x86)\\Git\\Git\\cmd;E:\\Program Files (x86)\\Git\\TortoiseGit\\bin;C:\\Users\\lenovo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2064'
+    'PATH_TRANSLATED' => 'G:\\WWW\\'
+    'PATH_INFO' => '/'
+    'SCRIPT_NAME' => '/Git/lin/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/Git/lin/advanced/frontend/web/index.php/?r=user2/del&id=6'
+    'QUERY_STRING' => 'r=user2/del&id=6'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '57505'
+    'SCRIPT_FILENAME' => 'G:/WWW/Git/lin/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'G:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=1j55niateusag27glbvplb41d7; _csrf=d96f482950623693525846f4f3152076fc313e5bbb6a2f9ebac2fca8d0a99f63a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gCHpLMWUTEo9fASPJVyGtudqRFMswBRu%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/Git/lin/advanced/frontend/web/index.php/?r=user2/show'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/Git/lin/advanced/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1478092282.9122
+    'REQUEST_TIME' => 1478092282
+]
+2016-11-02 21:11:43 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: request' in G:\WWW\Git\lin\advanced\frontend\controllers\User2Controller.php:60
+Stack trace:
+#0 G:\WWW\Git\lin\advanced\frontend\controllers\User2Controller.php(60): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'G:\\WWW\\Git\\lin\\...', 60, Array)
+#1 [internal function]: frontend\controllers\User2Controller->actionDel()
+#2 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('del', Array)
+#5 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user2/del', Array)
+#6 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 G:\WWW\Git\lin\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-11-02 21:11:43 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user2/del'
+    'id' => '6'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1j55niateusag27glbvplb41d7'
+    '_csrf' => 'd96f482950623693525846f4f3152076fc313e5bbb6a2f9ebac2fca8d0a99f63a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gCHpLMWUTEo9fASPJVyGtudqRFMswBRu\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\Program Files (x86)\\New xiaowugui\\bin;E:\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;E:\\Program Files (x86)\\Git\\Git\\cmd;E:\\Program Files (x86)\\Git\\TortoiseGit\\bin;C:\\Users\\lenovo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2144'
+    'PATH_TRANSLATED' => 'G:\\WWW\\'
+    'PATH_INFO' => '/'
+    'SCRIPT_NAME' => '/Git/lin/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/Git/lin/advanced/frontend/web/index.php/?r=user2/del&id=6'
+    'QUERY_STRING' => 'r=user2/del&id=6'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '57513'
+    'SCRIPT_FILENAME' => 'G:/WWW/Git/lin/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'G:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=1j55niateusag27glbvplb41d7; _csrf=d96f482950623693525846f4f3152076fc313e5bbb6a2f9ebac2fca8d0a99f63a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gCHpLMWUTEo9fASPJVyGtudqRFMswBRu%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/Git/lin/advanced/frontend/web/index.php/?r=user2/show'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/Git/lin/advanced/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1478092303.8518
+    'REQUEST_TIME' => 1478092303
+]
+2016-11-02 21:11:43 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-11-02 21:11:43 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user2/del'
+    'id' => '6'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1j55niateusag27glbvplb41d7'
+    '_csrf' => 'd96f482950623693525846f4f3152076fc313e5bbb6a2f9ebac2fca8d0a99f63a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gCHpLMWUTEo9fASPJVyGtudqRFMswBRu\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\Program Files (x86)\\New xiaowugui\\bin;E:\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;E:\\Program Files (x86)\\Git\\Git\\cmd;E:\\Program Files (x86)\\Git\\TortoiseGit\\bin;C:\\Users\\lenovo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2144'
+    'PATH_TRANSLATED' => 'G:\\WWW\\'
+    'PATH_INFO' => '/'
+    'SCRIPT_NAME' => '/Git/lin/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/Git/lin/advanced/frontend/web/index.php/?r=user2/del&id=6'
+    'QUERY_STRING' => 'r=user2/del&id=6'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '57513'
+    'SCRIPT_FILENAME' => 'G:/WWW/Git/lin/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'G:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=1j55niateusag27glbvplb41d7; _csrf=d96f482950623693525846f4f3152076fc313e5bbb6a2f9ebac2fca8d0a99f63a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gCHpLMWUTEo9fASPJVyGtudqRFMswBRu%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/Git/lin/advanced/frontend/web/index.php/?r=user2/show'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/Git/lin/advanced/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1478092303.8518
+    'REQUEST_TIME' => 1478092303
+]
+2016-11-02 21:11:47 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: request' in G:\WWW\Git\lin\advanced\frontend\controllers\User2Controller.php:60
+Stack trace:
+#0 G:\WWW\Git\lin\advanced\frontend\controllers\User2Controller.php(60): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'G:\\WWW\\Git\\lin\\...', 60, Array)
+#1 [internal function]: frontend\controllers\User2Controller->actionDel()
+#2 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('del', Array)
+#5 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user2/del', Array)
+#6 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 G:\WWW\Git\lin\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-11-02 21:11:47 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user2/del'
+    'id' => '6'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1j55niateusag27glbvplb41d7'
+    '_csrf' => 'd96f482950623693525846f4f3152076fc313e5bbb6a2f9ebac2fca8d0a99f63a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gCHpLMWUTEo9fASPJVyGtudqRFMswBRu\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\Program Files (x86)\\New xiaowugui\\bin;E:\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;E:\\Program Files (x86)\\Git\\Git\\cmd;E:\\Program Files (x86)\\Git\\TortoiseGit\\bin;C:\\Users\\lenovo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2144'
+    'PATH_TRANSLATED' => 'G:\\WWW\\'
+    'PATH_INFO' => '/'
+    'SCRIPT_NAME' => '/Git/lin/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/Git/lin/advanced/frontend/web/index.php/?r=user2/del&id=6'
+    'QUERY_STRING' => 'r=user2/del&id=6'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '57520'
+    'SCRIPT_FILENAME' => 'G:/WWW/Git/lin/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'G:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=1j55niateusag27glbvplb41d7; _csrf=d96f482950623693525846f4f3152076fc313e5bbb6a2f9ebac2fca8d0a99f63a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gCHpLMWUTEo9fASPJVyGtudqRFMswBRu%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/Git/lin/advanced/frontend/web/index.php/?r=user2/show'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/Git/lin/advanced/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1478092307.9267
+    'REQUEST_TIME' => 1478092307
+]
+2016-11-02 21:11:47 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-11-02 21:11:47 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user2/del'
+    'id' => '6'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1j55niateusag27glbvplb41d7'
+    '_csrf' => 'd96f482950623693525846f4f3152076fc313e5bbb6a2f9ebac2fca8d0a99f63a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gCHpLMWUTEo9fASPJVyGtudqRFMswBRu\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\Program Files (x86)\\New xiaowugui\\bin;E:\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;E:\\Program Files (x86)\\Git\\Git\\cmd;E:\\Program Files (x86)\\Git\\TortoiseGit\\bin;C:\\Users\\lenovo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2144'
+    'PATH_TRANSLATED' => 'G:\\WWW\\'
+    'PATH_INFO' => '/'
+    'SCRIPT_NAME' => '/Git/lin/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/Git/lin/advanced/frontend/web/index.php/?r=user2/del&id=6'
+    'QUERY_STRING' => 'r=user2/del&id=6'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '57520'
+    'SCRIPT_FILENAME' => 'G:/WWW/Git/lin/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'G:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=1j55niateusag27glbvplb41d7; _csrf=d96f482950623693525846f4f3152076fc313e5bbb6a2f9ebac2fca8d0a99f63a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gCHpLMWUTEo9fASPJVyGtudqRFMswBRu%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/Git/lin/advanced/frontend/web/index.php/?r=user2/show'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/Git/lin/advanced/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1478092307.9267
+    'REQUEST_TIME' => 1478092307
+]
+2016-11-02 21:12:01 [127.0.0.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\db\Connection::get()' in G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\Component.php:285
+Stack trace:
+#0 G:\WWW\Git\lin\advanced\frontend\controllers\User2Controller.php(60): yii\base\Component->__call('get', Array)
+#1 G:\WWW\Git\lin\advanced\frontend\controllers\User2Controller.php(60): yii\db\Connection->get('id')
+#2 [internal function]: frontend\controllers\User2Controller->actionDel()
+#3 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('del', Array)
+#6 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user2/del', Array)
+#7 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 G:\WWW\Git\lin\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2016-11-02 21:12:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user2/del'
+    'id' => '6'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1j55niateusag27glbvplb41d7'
+    '_csrf' => 'd96f482950623693525846f4f3152076fc313e5bbb6a2f9ebac2fca8d0a99f63a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gCHpLMWUTEo9fASPJVyGtudqRFMswBRu\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\Program Files (x86)\\New xiaowugui\\bin;E:\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;E:\\Program Files (x86)\\Git\\Git\\cmd;E:\\Program Files (x86)\\Git\\TortoiseGit\\bin;C:\\Users\\lenovo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2144'
+    'PATH_TRANSLATED' => 'G:\\WWW\\'
+    'PATH_INFO' => '/'
+    'SCRIPT_NAME' => '/Git/lin/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/Git/lin/advanced/frontend/web/index.php/?r=user2/del&id=6'
+    'QUERY_STRING' => 'r=user2/del&id=6'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '57525'
+    'SCRIPT_FILENAME' => 'G:/WWW/Git/lin/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'G:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=1j55niateusag27glbvplb41d7; _csrf=d96f482950623693525846f4f3152076fc313e5bbb6a2f9ebac2fca8d0a99f63a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gCHpLMWUTEo9fASPJVyGtudqRFMswBRu%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/Git/lin/advanced/frontend/web/index.php/?r=user2/show'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/Git/lin/advanced/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1478092320.9994
+    'REQUEST_TIME' => 1478092320
+]
+2016-11-02 21:12:01 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownMethodException))
+#6 {main}
+2016-11-02 21:12:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user2/del'
+    'id' => '6'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1j55niateusag27glbvplb41d7'
+    '_csrf' => 'd96f482950623693525846f4f3152076fc313e5bbb6a2f9ebac2fca8d0a99f63a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gCHpLMWUTEo9fASPJVyGtudqRFMswBRu\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\Program Files (x86)\\New xiaowugui\\bin;E:\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;E:\\Program Files (x86)\\Git\\Git\\cmd;E:\\Program Files (x86)\\Git\\TortoiseGit\\bin;C:\\Users\\lenovo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2144'
+    'PATH_TRANSLATED' => 'G:\\WWW\\'
+    'PATH_INFO' => '/'
+    'SCRIPT_NAME' => '/Git/lin/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/Git/lin/advanced/frontend/web/index.php/?r=user2/del&id=6'
+    'QUERY_STRING' => 'r=user2/del&id=6'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '57525'
+    'SCRIPT_FILENAME' => 'G:/WWW/Git/lin/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'G:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=1j55niateusag27glbvplb41d7; _csrf=d96f482950623693525846f4f3152076fc313e5bbb6a2f9ebac2fca8d0a99f63a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gCHpLMWUTEo9fASPJVyGtudqRFMswBRu%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/Git/lin/advanced/frontend/web/index.php/?r=user2/show'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/Git/lin/advanced/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1478092320.9994
+    'REQUEST_TIME' => 1478092320
+]
+2016-11-02 21:12:06 [127.0.0.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\db\Connection::get()' in G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\Component.php:285
+Stack trace:
+#0 G:\WWW\Git\lin\advanced\frontend\controllers\User2Controller.php(60): yii\base\Component->__call('get', Array)
+#1 G:\WWW\Git\lin\advanced\frontend\controllers\User2Controller.php(60): yii\db\Connection->get('id')
+#2 [internal function]: frontend\controllers\User2Controller->actionDel()
+#3 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('del', Array)
+#6 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user2/del', Array)
+#7 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 G:\WWW\Git\lin\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2016-11-02 21:12:06 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user2/del'
+    'id' => '6'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1j55niateusag27glbvplb41d7'
+    '_csrf' => 'd96f482950623693525846f4f3152076fc313e5bbb6a2f9ebac2fca8d0a99f63a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gCHpLMWUTEo9fASPJVyGtudqRFMswBRu\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\Program Files (x86)\\New xiaowugui\\bin;E:\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;E:\\Program Files (x86)\\Git\\Git\\cmd;E:\\Program Files (x86)\\Git\\TortoiseGit\\bin;C:\\Users\\lenovo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2064'
+    'PATH_TRANSLATED' => 'G:\\WWW\\'
+    'PATH_INFO' => '/'
+    'SCRIPT_NAME' => '/Git/lin/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/Git/lin/advanced/frontend/web/index.php/?r=user2/del&id=6'
+    'QUERY_STRING' => 'r=user2/del&id=6'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '57530'
+    'SCRIPT_FILENAME' => 'G:/WWW/Git/lin/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'G:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=1j55niateusag27glbvplb41d7; _csrf=d96f482950623693525846f4f3152076fc313e5bbb6a2f9ebac2fca8d0a99f63a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gCHpLMWUTEo9fASPJVyGtudqRFMswBRu%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/Git/lin/advanced/frontend/web/index.php/?r=user2/show'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/Git/lin/advanced/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1478092326.7325
+    'REQUEST_TIME' => 1478092326
+]
+2016-11-02 21:12:06 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownMethodException))
+#6 {main}
+2016-11-02 21:12:06 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user2/del'
+    'id' => '6'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1j55niateusag27glbvplb41d7'
+    '_csrf' => 'd96f482950623693525846f4f3152076fc313e5bbb6a2f9ebac2fca8d0a99f63a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gCHpLMWUTEo9fASPJVyGtudqRFMswBRu\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\Program Files (x86)\\New xiaowugui\\bin;E:\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;E:\\Program Files (x86)\\Git\\Git\\cmd;E:\\Program Files (x86)\\Git\\TortoiseGit\\bin;C:\\Users\\lenovo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2064'
+    'PATH_TRANSLATED' => 'G:\\WWW\\'
+    'PATH_INFO' => '/'
+    'SCRIPT_NAME' => '/Git/lin/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/Git/lin/advanced/frontend/web/index.php/?r=user2/del&id=6'
+    'QUERY_STRING' => 'r=user2/del&id=6'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '57530'
+    'SCRIPT_FILENAME' => 'G:/WWW/Git/lin/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'G:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=1j55niateusag27glbvplb41d7; _csrf=d96f482950623693525846f4f3152076fc313e5bbb6a2f9ebac2fca8d0a99f63a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gCHpLMWUTEo9fASPJVyGtudqRFMswBRu%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/Git/lin/advanced/frontend/web/index.php/?r=user2/show'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/Git/lin/advanced/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1478092326.7325
+    'REQUEST_TIME' => 1478092326
+]
+2016-11-02 21:15:21 [127.0.0.1][-][1j55niateusag27glbvplb41d7][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: models' in G:\WWW\Git\lin\advanced\frontend\views\user2\show.php:10
+Stack trace:
+#0 G:\WWW\Git\lin\advanced\frontend\views\user2\show.php(10): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'G:\\WWW\\Git\\lin\\...', 10, Array)
+#1 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\View.php(325): require('G:\\WWW\\Git\\lin\\...')
+#2 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('G:\\WWW\\Git\\lin\\...', Array)
+#3 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('G:\\WWW\\Git\\lin\\...', Array, Object(frontend\controllers\User2Controller))
+#4 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('show', Array, Object(frontend\controllers\User2Controller))
+#5 G:\WWW\Git\lin\advanced\frontend\controllers\User2Controller.php(64): yii\base\Controller->render('show')
+#6 [internal function]: frontend\controllers\User2Controller->actionDel()
+#7 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('del', Array)
+#10 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user2/del', Array)
+#11 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 G:\WWW\Git\lin\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-11-02 21:15:21 [127.0.0.1][-][1j55niateusag27glbvplb41d7][info][application] $_GET = [
+    'r' => 'user2/del'
+    'id' => '2'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1j55niateusag27glbvplb41d7'
+    '_csrf' => 'd96f482950623693525846f4f3152076fc313e5bbb6a2f9ebac2fca8d0a99f63a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gCHpLMWUTEo9fASPJVyGtudqRFMswBRu\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'show' => -1
+    ]
+    'show' => '删除成功'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\Program Files (x86)\\New xiaowugui\\bin;E:\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;E:\\Program Files (x86)\\Git\\Git\\cmd;E:\\Program Files (x86)\\Git\\TortoiseGit\\bin;C:\\Users\\lenovo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2064'
+    'PATH_TRANSLATED' => 'G:\\WWW\\'
+    'PATH_INFO' => '/'
+    'SCRIPT_NAME' => '/Git/lin/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/Git/lin/advanced/frontend/web/index.php/?r=user2/del&id=2'
+    'QUERY_STRING' => 'r=user2/del&id=2'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '57578'
+    'SCRIPT_FILENAME' => 'G:/WWW/Git/lin/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'G:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=1j55niateusag27glbvplb41d7; _csrf=d96f482950623693525846f4f3152076fc313e5bbb6a2f9ebac2fca8d0a99f63a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gCHpLMWUTEo9fASPJVyGtudqRFMswBRu%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/Git/lin/advanced/frontend/web/index.php/?r=user2/show'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/Git/lin/advanced/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1478092521.4611
+    'REQUEST_TIME' => 1478092521
+]
+2016-11-02 21:15:21 [127.0.0.1][-][1j55niateusag27glbvplb41d7][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 G:\WWW\Git\lin\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-11-02 21:15:21 [127.0.0.1][-][1j55niateusag27glbvplb41d7][info][application] $_GET = [
+    'r' => 'user2/del'
+    'id' => '2'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1j55niateusag27glbvplb41d7'
+    '_csrf' => 'd96f482950623693525846f4f3152076fc313e5bbb6a2f9ebac2fca8d0a99f63a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gCHpLMWUTEo9fASPJVyGtudqRFMswBRu\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'show' => -1
+    ]
+    'show' => '删除成功'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\Program Files (x86)\\New xiaowugui\\bin;E:\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;E:\\Program Files (x86)\\Git\\Git\\cmd;E:\\Program Files (x86)\\Git\\TortoiseGit\\bin;C:\\Users\\lenovo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2064'
+    'PATH_TRANSLATED' => 'G:\\WWW\\'
+    'PATH_INFO' => '/'
+    'SCRIPT_NAME' => '/Git/lin/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/Git/lin/advanced/frontend/web/index.php/?r=user2/del&id=2'
+    'QUERY_STRING' => 'r=user2/del&id=2'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '57578'
+    'SCRIPT_FILENAME' => 'G:/WWW/Git/lin/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'G:/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=1j55niateusag27glbvplb41d7; _csrf=d96f482950623693525846f4f3152076fc313e5bbb6a2f9ebac2fca8d0a99f63a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gCHpLMWUTEo9fASPJVyGtudqRFMswBRu%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/Git/lin/advanced/frontend/web/index.php/?r=user2/show'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/Git/lin/advanced/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1478092521.4611
+    'REQUEST_TIME' => 1478092521
+]

@@ -1,5 +1,7 @@
 <?php
 use yii\widgets\LinkPager;
+use yii\helpers\Url;
+use yii\helpers\Html;
 ?>
 <center>
     <table class="table">
@@ -9,6 +11,10 @@ use yii\widgets\LinkPager;
         <tr>
             <td><?php echo $v['name']?></td>
             <td><?php echo $v['age']?></td>
+            <td>
+            	<?=Html::a('删除',"?r=user2/del&id=".$v['id']."") ?>
+            	<?=Html::a('修改',"?r=user2/save&id=".$v['id']."") ?>
+            </td>
         </tr>
         <?php endforeach ?>
     </table>
