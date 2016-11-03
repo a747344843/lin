@@ -82,6 +82,6 @@ class User2Controller extends Controller
     		}
     	}else{
     		return $this->render('up',['data'=>$data]);
-    	}
+    	 }
     }
 }
