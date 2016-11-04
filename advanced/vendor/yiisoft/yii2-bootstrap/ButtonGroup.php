@@ -8,100 +8,138 @@
 namespace yii\bootstrap;
 
 use yii\helpers\ArrayHelper;
-use yii\helpers\Html;
 
 /**
- * ButtonGroup renders a button group bootstrap component.
+ * ButtonDropdown renders a group or split button dropdown bootstrap component.
  *
  * For example,
  *
  * ```php
- * // a button group with items configuration
- * echo ButtonGroup::widget([
- *     'buttons' => [
- *         ['label' => 'A'],
- *         ['label' => 'B'],
- *         ['label' => 'C', 'visible' => false],
- *     ]
- * ]);
- *
- * // button group with an item as a string
- * echo ButtonGroup::widget([
- *     'buttons' => [
- *         Button::widget(['label' => 'A']),
- *         ['label' => 'B'],
- *     ]
+ * // a button group using Dropdown widget
+ * echo ButtonDropdown::widget([
+ *     'label' => 'Action',
+ *     'dropdown' => [
+ *         'items' => [
+ *             ['label' => 'DropdownA', 'url' => '/'],
+ *             ['label' => 'DropdownB', 'url' => '#'],
+ *         ],
+ *     ],
  * ]);
  * ```
- *
- * Pressing on the button should be handled via JavaScript. See the following for details:
- *
  * @see http://getbootstrap.com/javascript/#buttons
- * @see http://getbootstrap.com/components/#btn-groups
- *
+ * @see http://getbootstrap.com/components/#btn-dropdowns
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @since 2.0
  */
-class ButtonGroup extends Widget
+class ButtonDropdown extends Widget
 {
     /**
-     * @var array list of buttons. Each array element represents a single button
-     * which can be specified as a string or an array of the following structure:
+     * @var string the button label
+     */
+    public $label = 'Button';
+    /**
+     * @var array the HTML attributes for the container tag. The following special options are recognized:
      *
-     * - label: string, required, the button label.
-     * - options: array, optional, the HTML attributes of the button.
-     * - visible: boolean, optional, whether this button is visible. Defaults to true.
+     * - tag: string, defaults to "div", the name of the container tag.
+     *
+     * @see \yii\helpers\Html::renderTagAttributes() for details on how attributes are being rendered.
+     * @since 2.0.1
      */
-    public $buttons = [];
+    public $containerOptions = [];
     /**
-     * @var boolean whether to HTML-encode the button labels.
+     * @var array the HTML attributes of the button.
+     * @see \yii\helpers\Html::renderTagAttributes() for details on how attributes are being rendered.
      */
-    public $encodeLabels = true;
-
-
+    public $options = [];
     /**
-     * Initializes the widget.
-     * If you override this method, make sure you call the parent implementation first.
+     * @var array the configuration array for [[Dropdown]].
      */
-    public function init()
-    {
-        parent::init();
-        Html::addCssClass($this->options, 'btn-group');
-    }
+    public $dropdown = [];
+    /**
+     * @var boolean whether to display a group of split-styled button group.
+     */
+    public $split = false;
+    /**
+     * @var string the tag to use to render the button
+     */
+    public $tagName = 'button';
+    /**
+     * @var boolean whether the label should be HTML-encoded.
+     */
+    public $encodeLabel = true;
+
 
     /**
      * Renders the widget.
      */
     public function run()
     {
-        BootstrapAsset::register($this->getView());
-        return Html::tag('div', $this->renderButtons(), $this->options);
+        // @todo use [[options]] instead of [[containerOptions]] and introduce [[buttonOptions]] before 2.1 release
+        Html::addCssClass($this->containerOptions, ['widget' => 'btn-group']);
+        $options = $this->containerOptions;
+        $tag = ArrayHelper::remove($options, 'tag', 'div');
+
+        $this->registerPlugin('button');
+        return implode("\n", [
+            Html::beginTag($tag, $options),
+            $this->renderButton(),
+            $this->renderDropdown(),
+            Html::endTag($tag)
+        ]);
     }
 
     /**
-     * Generates the buttons that compound the group as specified on [[buttons]].
+     * Generates the button dropdown.
      * @return string the rendering result.
      */
-    protected function renderButtons()
+    protected function renderButton()
     {
-        $buttons = [];
-        foreach ($this->buttons as $button) {
-            if (is_array($button)) {
-                $visible = ArrayHelper::remove($button, 'visible', true);
-                if ($visible === false) {
-                    continue;
-                }
-
-                $button['view'] = $this->getView();
-                if (!isset($button['encodeLabel'])) {
-                    $button['encodeLabel'] = $this->encodeLabels;
-                }
-                $buttons[] = Button::widget($button);
-            } else {
-                $buttons[] = $button;
+        Html::addCssClass($this->options, ['widget' => 'btn']);
+        $label = $this->label;
+        if ($this->encodeLabel) {
+            $label = Html::encode($label);
+        }
+        if ($this->split) {
+            $options = $this->options;
+            $this->options['data-toggle'] = 'dropdown';
+            Html::addCssClass($this->options, ['toggle' => 'dropdown-toggle']);
+            unset($this->options['id']);
+            $splitButton = Button::widget([
+                'label' => '<span class="caret"></span>',
+                'encodeLabel' => false,
+                'options' => $this->options,
+                'view' => $this->getView(),
+            ]);
+        } else {
+            $label .= ' <span class="caret"></span>';
+            $options = $this->options;
+            if (!isset($options['href']) && $this->tagName === 'a') {
+                $options['href'] = '#';
             }
+            Html::addCssClass($options, ['toggle' => 'dropdown-toggle']);
+            $options['data-toggle'] = 'dropdown';
+            $splitButton = '';
         }
 
-        return implode("\n", $buttons);
+        return Button::widget([
+            'tagName' => $this->tagName,
+            'label' => $label,
+            'options' => $options,
+            'encodeLabel' => false,
+            'view' => $this->getView(),
+        ]) . "\n" . $splitButton;
+    }
+
+    /**
+     * Generates the dropdown menu.
+     * @return string the rendering result.
+     */
+    protected function renderDropdown()
+    {
+        $config = $this->dropdown;
+        $config['clientOptions'] = false;
+        $config['view'] = $this->getView();
+
+        return Dropdown::widget($config);
     }
 }
